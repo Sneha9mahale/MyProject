@@ -4,10 +4,10 @@ public class Square_root {
 
 	public static void main(String[] args) {
 		Scanner sqr=new Scanner(System.in);
-		float num,s;
+		int num;
 		System.out.println("Enter any number");
-		num=sqr.nextFloat();
-		s=num*1/2;
+		num=sqr.nextInt();
+		double s=Math.pow(num,0.5);
 		System.out.println("Square Root = "+s);
 
 	}
