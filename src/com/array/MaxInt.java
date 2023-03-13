@@ -3,15 +3,15 @@ package com.array;
 public class MaxInt {
 	public static void maxi(int nu[])
 	{
-		int mint=nu[0];
+		int maxt=nu[0];
 		for(int i=0;i<nu.length;i++)
 		{
-			if(mint<nu[i])
+			if(maxt<nu[i])
 			{
-				mint=nu[i];
+				maxt=nu[i];
 			}
 		}
-		System.out.print(mint);
+		System.out.print(maxt);
 		
 	}
 
