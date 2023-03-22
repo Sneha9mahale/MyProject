@@ -7,23 +7,23 @@ public class To_check_vowelcapital {
 		System.out.println("Enter The Character :");
 		char ch;
 		ch=sc.next().charAt(0);
-		if(ch=='A')
+		if(ch=='A'||ch=='a')
 		{
 			System.out.println(ch+" vowel");
 		}
-		else if(ch=='E')
+		else if(ch=='E'||ch=='e')
 		{
 			System.out.println(ch+" vowel");
 		}
-		else if(ch=='I')
+		else if(ch=='I'||ch=='i')
 		{
 			System.out.println(ch+" vowel");
 		}
-		else if(ch=='O')
+		else if(ch=='O'||ch=='o')
 		{
 			System.out.println(ch+" vowel");
 		}
-		else if(ch=='U')
+		else if(ch=='U'||ch=='u')
 		{
 			System.out.println(ch+" is vowel");
 		}

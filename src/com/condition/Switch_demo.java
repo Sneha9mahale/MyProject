@@ -10,25 +10,28 @@ public class Switch_demo {
 		switch(num)
 		{
 		case 1:
-			System.out.println("Mon");
+			System.out.println("Monday");
 			break;
 		case 2:
-			System.out.println("Tues");
+			System.out.println("Tuesday");
 			break;
 		case 3:
-			System.out.println("Wed");
+			System.out.println("Wednesday");
 			break;
 		case 4:
-			System.out.println("Thrus");
+			System.out.println("Thrusday");
 			break;
 		case 7:
-			System.out.println("Sun");
+			System.out.println("Sunday");
 			break;
 		case 5:
-			System.out.println("Fri");
+			System.out.println("Friday");
 			break;
 		case 6:
-			System.out.println("Sat");
+			System.out.println("Saturday");
+			break;
+		default:
+			System.out.println("error, day does not exist ");
 			
 		}
 

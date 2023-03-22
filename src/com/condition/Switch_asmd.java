@@ -1,5 +1,6 @@
 package com.condition;
 import java.util.Scanner;
+//Write a Java program to create a Simple Calculator using switch
 public class Switch_asmd {
 
 	public static void main(String[] args) {

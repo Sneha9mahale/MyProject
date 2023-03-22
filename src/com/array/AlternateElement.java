@@ -14,11 +14,14 @@ public class AlternateElement {
 		}
 		
 		for(int i=0;i<a.length;i++)
-		{	
-			if(i<a.length)
-			{
+		{
+			int temp=0;
+			a[0]=temp;
 			a[i]=a[i+1];
-			System.out.println(a[i]);
+			System.out.println(a[i]);	
+			if(a[i]==a.length)
+			{
+			a[i]=temp;
 			}
 		}
 		

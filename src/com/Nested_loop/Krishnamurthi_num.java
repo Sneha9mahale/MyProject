@@ -21,6 +21,7 @@ public class Krishnamurthi_num {
 			num=num/10;
 			
 		}
+		System.out.println(sum);
 		num=temp;
 		if(num==sum)
 		{
