@@ -13,7 +13,7 @@ public class ThisUse_2 {
 	}
 	public static void main(String[] args) {
 		ThisUse_2 use=new ThisUse_2();
-		//use.display();
+		use.display();
 		use.show();
 		use.display();
 		

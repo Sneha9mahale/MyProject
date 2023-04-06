@@ -14,8 +14,7 @@ public class Hotel {
 		this.id=id;
 	}
 	public void setName(String name)
-	{
-		this.name=name;
+	{		this.name=name;
 	}
 	public void setLocation(String location)
 	{

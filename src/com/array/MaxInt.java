@@ -17,7 +17,7 @@ public class MaxInt {
 
 	public static void main(String[] args) {
 		int num[]= {2,5,66,23,45};
-		MaxInt.maxi(num);
+		maxi(num);
 	}
 
 }

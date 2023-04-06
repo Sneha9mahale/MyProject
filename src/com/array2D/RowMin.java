@@ -12,13 +12,11 @@ public class RowMin {
 		System.out.println();
 	}
 	System.out.println(".......Min....");
-	
 	for(int i=0;i<a.length;i++)
 	{
 		int min=a[i][0];
 		for(int j=0;j<a[i].length;j++)
 		{
-			
 			if(a[i][j]<min)
 			{
 				min=a[i][j];
@@ -26,13 +24,9 @@ public class RowMin {
 		}
 		System.out.print(min+" ");
 	}
-	}
-
+}
 	public static void main(String[] args) {
 		int a[][]= {{3,5,7},{7,9,8},{1,2,4}};
 		RowMin.eachRowMin(a);
-		
-
-	}
-
+		}
 }

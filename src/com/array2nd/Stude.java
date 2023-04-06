@@ -52,11 +52,11 @@ public class Stude {
 				sum=sum+mk[i];
 			}
 			int per=sum/mk.length;
-			System.out.println(per);
-			if(per>60)
-			{
-				System.out.println(stu+" per = "+per);
-			}
+			System.out.println("percentage = "+per );
+//			if(per>60)
+//			{
+//				System.out.println(stu+" per = "+per);
+//			}
 		}
 	}
 }

@@ -1,18 +1,16 @@
 package com.OOPS;
+public class ThisUse3 {
 
-class UsesOfThis{
-	public UsesOfThis()
+	 ThisUse3()
 	{
-		//this(56);
+		this(56);
 		System.out.println("Hello.....");	
 	}
-	public UsesOfThis(int x)
+	ThisUse3(int x)
 	{
-		this();
+		//this();
 		System.out.println("x = "+x);
 	}
-}
-public class ThisUse3 {
 
 	
 	public static void main(String[] args) {
