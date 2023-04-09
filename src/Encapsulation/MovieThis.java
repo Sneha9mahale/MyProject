@@ -47,7 +47,7 @@ public class MovieThis {
 	public static void main(String[] args) {
 		MovieThis m=new MovieThis();
 		m.showDetails();
-//		MovieThis u=new MovieThis(2020,400000.0f,"akshay kumar","Lakshmi");
+//		MovieThis u=new MovieThis(2020,400000.0f,"Akshay Kumar","Lakshmi");
 //		u.showDetails();
 //		m.acceptDetails(2022, 10000000.0f,"Salman Khan","sultan");
 
