@@ -1,6 +1,6 @@
-package com.Poly;
+package com.collection;
 
-public class Const_over {
+public class GenericDemo {
 
 	public static void main(String[] args) {
 		

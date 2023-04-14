@@ -15,7 +15,8 @@ public class DessendingStr {
 				{
 					String temp=str[i];
 					str[i]=str[j];
-					str[j]=temp;		
+					str[j]=temp;
+					
 				}
 				else if(str[i].length()==str[j].length())
 				{
@@ -24,10 +25,14 @@ public class DessendingStr {
 						String tep=str[i];
 						str[i]=str[j];
 						str[j]=tep;
+						
 					}
 				}
+			
 			}
+			
 		}
+		
 		System.out.println(Arrays.toString(str));
 	}
 
@@ -36,7 +41,5 @@ public class DessendingStr {
 		System.out.println("Enter String");
 		String s=sc.nextLine();
 		DessendingStr.decLength(s);
-
 	}
-
 }
