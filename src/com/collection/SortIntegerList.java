@@ -9,7 +9,7 @@ public class SortIntegerList {
 		al.add(45);
 		al.add(12);
 		System.out.println(al);
-		System.out.print(al.clear());
+		System.out.println(al.);
 
 	}
 
