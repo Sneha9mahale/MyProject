@@ -1,12 +1,10 @@
 package com.collection;
 
-public class CollectionDemo {
+public class MethodArrayList1 {
 
 	public static void main(String[] args) {
-		ArrayList list=new ArrayList();
 		
-				
-
+		
 	}
 
 }

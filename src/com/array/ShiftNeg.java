@@ -4,28 +4,19 @@ import java.util.Arrays;
 
 public class ShiftNeg {
 	static void shiftele(int[] a) {
-		int k=0;
 		for(int i=0;i<a.length;i++)
 		{
-			
-			if(a[i]>0)
+			for(int j=i+1;j<a.length;j++)
 			{
-				a[k]=a[i];
-				k++;
+				if(a[i]<a[j])
+				{
+					int temp=a[i];
+					a[i]=a[j];
+					a[j]=temp;
+				}
 			}
 		}
-		
-		while(k<a.length)
-		{
-			int i=k;
-			if(a[i]<0)
-			{
-			a[k]=a[i];
-			}
-			
-		}
-		
-		}
+	}
 		
 	
 

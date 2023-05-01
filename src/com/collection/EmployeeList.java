@@ -1,7 +1,7 @@
 package com.collection;
 
 import java.util.*;
- class Employee implements Comparable<Employee>
+class Employee implements Comparable<Employee>
 {
 	int id;
 	String name;
@@ -18,8 +18,6 @@ import java.util.*;
 	public String toString() {
 		return "Employee [id=" + id + ", name=" + name + ", Salary=" + Salary + "]";
 	}
-
-	
 	
 }
 public class EmployeeList {

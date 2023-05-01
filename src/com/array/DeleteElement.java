@@ -6,18 +6,21 @@ public class DeleteElement {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter index");
 		int index=sc.nextInt();
-		for(int i=0;i<a.length-1;i++)
+		for(int i=0;i<a.length;i++)
 		{
-			for(int j=0;j<=i;j++)
+			if(a[i]==index)
 			{
-			if(j==index)
-			{
-				j=index+1;
-				System.out.print(a[j]);
-				break;
+				continue;
+//				for(int j=i+1;j<a.length-1;j++)
+//				{
+//					a[i]=a[j];
+//					a[j]=a[j+1];
+//				}
 			}
-			System.out.print(a[j]);
-			}
+		}
+		for(int arr:a)
+		{
+		System.out.println(arr);
 		}
 		
 	}

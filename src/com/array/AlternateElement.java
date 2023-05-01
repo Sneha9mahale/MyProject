@@ -5,24 +5,23 @@ import java.util.Scanner;
 public class AlternateElement {
 
 	public static void main(String[] args) {
-		int a[]=new int[5] ;
 		System.out.println("Enter number:");
 		Scanner sc=new Scanner(System.in);
+		int a[]=new int[6];
 		for(int i=0;i<a.length;i++)
 		{
 			a[i]=sc.nextInt();
 		}
 		
-		for(int i=0;i<a.length;i++)
+		for(int i=0;i<a.length;i=i+2)
 		{
-			int temp=0;
-			a[0]=temp;
+			int temp=a[i];
 			a[i]=a[i+1];
-			System.out.println(a[i]);	
-			if(a[i]==a.length)
-			{
-			a[i]=temp;
-			}
+			a[i+1]=temp;
+		}
+		for(int arr:a)
+		{
+			System.out.println(arr);
 		}
 		
 
